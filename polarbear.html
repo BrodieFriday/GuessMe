@@ -22,29 +22,13 @@
 <!--<a href = "IS415HW3-1 copy.html">
 	<input type = "submit"/>
 </a>-->
-<button class = "submit-polarbear" id = "bt" type = "button" onclick = "myFunction()">Submit</button>
+<button class = "submit-polarbear" id = "bt" type = "button" onclick = "polarbear()">Submit</button>
 <button class = "button2" id = "bt" type = "button" onclick = "hint()">HINT</button>
 
 
 
 <input class = "answer" id ="ans" type="text">
-<script>
-	function myFunction(){
-let input = document.getElementById("ans").value;
-if(input==="Polarbear"|| input==="polarbear"){
-document.getElementById("c").innerHTML = "That is Correct!!"
-document.getElementById("h").innerHTML = "Scroll down to read more"
-document.getElementById("header").innerHTML = "Info:"
-document.getElementById("i").innerHTML = "- This animal can be found in the tundra <br/> - Polarbears are carnivores with their main food source feing fish."
-
-document.getElementById("f").innerHTML = "&nbsp"
-document.getElementById("full").style.display="block";
- } 
-}
-	function hint(){
-		document.getElementById("h").innerHTML = "Hint: I am very tall and live where it's hot."
-	}
-	</script>
+<script src="GuessMe.js"></script>
 </body>
 
 </html>
