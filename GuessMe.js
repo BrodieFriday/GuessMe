@@ -1,4 +1,4 @@
-	function myFunction(){
+	function giraffe(){
 let input = document.getElementById("ans").value;
 if(input==="Giraffe"|| input==="giraffe"){
 	var colorGreen = document.getElementById("c");
