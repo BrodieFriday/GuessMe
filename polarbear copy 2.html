@@ -1,0 +1,139 @@
+<!Brodie Friday>
+<!02-17-2022>
+<!DOCTYPE html>
+<html> 
+<head>
+<style>
+	.container{
+		margin: 0;
+ 		position: absolute;
+  		top: 45%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		font-family: Macondo;
+  		font-size: 44px;
+	}
+	.correct{
+		color: green;
+	}
+	.button1{
+		font-size: 25px;
+		margin: 0;
+ 		position: absolute;
+  	    top: 70%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		border-radius: 10px;
+  		border-color: burlywood;
+	}
+	
+	.correct{
+		margin: 0;
+ 		position: absolute;
+  	    top: 53%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+	}
+	.answer{
+		margin: 0;
+ 		position: absolute;
+  	    top: 64%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		height: 23px;
+	}
+	body{
+		background:  linear-gradient(peru,white);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.image{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:  65%;
+		border-radius: 10px;
+	}
+	.button2{
+		font-size:  15px;
+		transform:  translate(20%, 1900%);
+	}
+
+	.hint{
+		margin: 0;
+ 		position: absolute;
+  		top: 80%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		font-family: Zen+Loop;
+  		font-size: 16px;
+	}
+	.info{
+		margin: auto;
+ 		position: absolute;
+  		top: 160%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		font-family: Zen+Loop;
+  		font-size: 13px;
+	}
+	
+	.infoHeader{
+		
+ 		position: absolute;
+  		top: 140%;
+  		left: 20%;
+  		transform: translate(-50%, -50%);
+  		font-family: Zen+Loop;
+  		font-size: 24px;
+  		font-weight: bold;
+	}
+	.fillerSpace{
+ 		position: absolute;
+  		top: 180%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+	}
+
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+</head>
+<body>
+	<img src="fox.jpg" height="225"class="image">
+	<p class = "container">What am I ?</p>
+	<p class="correct" id = "c"></p>
+	<p class="hint" id = "h"></p>
+	<h1 class="infoHeader" id ="header"></h1>
+	<p class="info" id = "i"></p>
+	<p class="info" id = "i"></p>
+	</ul>
+	<p class="fillerSpace" id = "f"></p>
+<!--<a href = "IS415HW3-1 copy.html">
+	<input type = "submit"/>
+</a>-->
+<button class = "button1" id = "bt" type = "button" onclick = "myFunction()">Submit</button>
+<button class = "button2" id = "bt" type = "button" onclick = "hint()">HINT</button>
+
+
+
+<input class = "answer" id ="ans" type="text">
+<script>
+	function myFunction(){
+let input = document.getElementById("ans").value;
+if(input==="Giraffe"|| input==="giraffe"){
+document.getElementById("c").innerHTML = "That is Correct!!"
+document.getElementById("h").innerHTML = "Scroll down to read more"
+document.getElementById("header").innerHTML = "Info:"
+document.getElementById("i").innerHTML = "- This animal is approximatly 22 feet tall and can be found in the heart of Africa.<br/> - Unlike mamals in North America this animals feeds on vegitation high in the sky."
+
+document.getElementById("f").innerHTML = "&nbsp"
+ } 
+}
+	function hint(){
+		document.getElementById("h").innerHTML = "Hint: I am very tall and live where it's hot."
+	}
+	</script>
+</body>
+
+</html>
