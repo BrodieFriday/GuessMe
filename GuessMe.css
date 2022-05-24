@@ -10,7 +10,7 @@
 	.correct{
 		font-size: 27px;
 	}
-	.button1{
+	.submit-giraffe{
 		font-size: 25px;
 		margin: 0;
  		position: absolute;
@@ -19,7 +19,16 @@
   		transform: translate(-50%, -50%);
   		border-radius: 10px;
   		border-color: sienna;
- 
+	}
+	.submit-polarbear{
+		font-size: 25px;
+		margin: 0;
+ 		position: absolute;
+  	    top: 70%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		border-radius: 10px;
+  		border-color: whtie;
 	}
 	.button3{
 		font-size:  30px;
@@ -48,8 +57,13 @@
   		transform: translate(-50%, -50%);
   		height: 23px;
 	}
-	body{
+	.body-giraffe{
 		background:  linear-gradient(sienna,white);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.body-polarbear{
+		background:  linear-gradient(gray,white);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
