@@ -1,4 +1,4 @@
-# GuessWho
+# GuessMe
 
 **Version 1.0.0**
 
