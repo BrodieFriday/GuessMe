@@ -1,5 +1,8 @@
-function hint(){
+function giraffeHint(){
 	document.getElementById("h").innerHTML = "Hint: I am very tall and live where it's hot."
+}
+function polarbearHint(){
+	document.getElementById("h").innerHTML = "HINT: I live where it is very cold."
 }
 	
 function giraffe(){
