@@ -26,7 +26,7 @@ function giraffe(){
 }
 function polarbear(){
 	let input = document.getElementById("ans").value;
-	if(input==="Polarbear"|| input==="polarbear"){
+	if(input==="Polar bear"|| input==="polar bear" || input==="polarbear" || input ==="Polarbear"){
 		document.getElementById("c").innerHTML = "That is Correct!!"
 		document.getElementById("h").innerHTML = "Scroll down to read more"
 		document.getElementById("header").innerHTML = "Info:"
