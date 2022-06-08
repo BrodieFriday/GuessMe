@@ -30,6 +30,16 @@
   		border-radius: 10px;
   		border-color: whtie;
 	}
+	.submit-caribou{
+		font-size: 25px;
+		margin: 0;
+ 		position: absolute;
+  	    top: 70%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		border-radius: 10px;
+  		border-color: whtie;
+	}
 	.submit-bobcat{
 		font-size: 25px;
 		margin: 0;
@@ -73,6 +83,28 @@
 			color: gray;
 			background-color: white;
 	}
+	.next-caribou{
+		font-size:  30px;
+		position: absolute;
+		top: 115%;
+		  left: 50%;
+		transform:  translate(-50%, -50%);
+		border-radius: 10px;
+		border-color: white;
+		color: gray;
+		background-color: white;
+}
+.next-bobcat{
+	font-size:  30px;
+	position: absolute;
+	top: 115%;
+	  left: 50%;
+	transform:  translate(-50%, -50%);
+	border-radius: 10px;
+	border-color: white;
+	color: gray;
+	background-color: white;
+}
 	.correct{
 		margin: 0;
  		position: absolute;
@@ -104,6 +136,11 @@
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
+	.body-caribou{
+		background:  linear-gradient(blanchedalmond,white);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
 	.image{
 		display: block;
 		margin-left: auto;
@@ -120,7 +157,7 @@
   		font-family: Zen+Loop;
   		font-size: 13px;
 	}
-	.hint-polarbear.hint-giraffe.hint-bobcat{
+	.hint-polarbear.hint-giraffe.hint-bobcat.hint-caribou{
 		font-size:  15px;
 		transform:  translate(20%, 1900%);
 	}
