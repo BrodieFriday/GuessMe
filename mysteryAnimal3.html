@@ -5,15 +5,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="GuessMe.css">
 </head>
-<body>
-	<img src="caribou.jpg" height="225"class="image">
-	<p class = "container">What am I ?</p>
-	<p class="correct" id = "c"></p>
-	<p class="hint" id = "h"></p>
+<body class="body-caribou">
+	<img src="caribou.jpg" height="225"class="croppedImage">
+	<p class = "whatAmI">What am I ?</p>
+	<p class="feedback" id = "feedback"></p>
+	<p class="hint" id = "hint"></p>
 	<h1 class="infoHeader" id ="header"></h1>
-	<p class="info" id = "i"></p>
-	<p class="info" id = "i"></p>
-	<p class="fillerSpace" id = "f"></p>
+	<p class="info" id = "information"></p>
+	<p class="fillerSpace" id = "filler"></p>
 
 	<button class = "submit-caribou" id = "caribouSubmit" type = "button" onclick = "caribou()">Submit</button>
 	<button class = "hint-polarbear hint-giraffe hint-bobcat hint-caribou" id = "caribouHint" type = "button" onclick = "caribouHint()">HINT</button>

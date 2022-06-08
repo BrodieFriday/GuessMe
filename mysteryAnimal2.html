@@ -6,15 +6,14 @@
 	<link rel="stylesheet" type="text/css" href="GuessMe.css">
 </head>
 <body class="body-polarbear">
-	<img src="polarbear.jpg" height="225"class="image">
-	<p class = "container">What am I ?</p>
-	<p class="correct" id = "c"></p>
-	<p class="hint" id = "h"></p>
+	<img src="polarbear.jpg" height="225"class="croppedImage">
+	<p class = "whatAmI">What am I ?</p>
+	<p class="feedback" id = "feedback"></p>
+	<p class="hint" id = "hint"></p>
 	<h1 class="infoHeader" id ="header"></h1>
-	<p class="info" id = "i"></p>
-	<p class="info" id = "i"></p>
-	<img src="fullsizepolarbear.jpg" class="fullsize" height="150px" style="display:none" id="full">
-	<p class="fillerSpace" id = "f"></p>
+	<p class="info" id = "information"></p>
+	<img src="fullsizepolarbear.jpg" class="revealImage" height="150px" style="display:none" id="revealImg">
+	<p class="fillerSpace" id = "filler"></p>
 
 	<button class = "submit-polarbear" id = "polarbearSubmit" type = "button" onclick = "polarbear()">Submit</button>
 	<button class = "hint-polarbear hint-giraffe hint-bobcat hint-caribou" id = "polarbearHint" type = "button" onclick = "polarbearHint()">HINT</button>

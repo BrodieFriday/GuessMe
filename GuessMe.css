@@ -1,4 +1,4 @@
-.container{
+.whatAmI{
 		margin: 0;
  		position: absolute;
   		top: 45%;
@@ -7,10 +7,16 @@
   		font-family: Macondo;
   		font-size: 44px;
 	}
-	.correct{
-		font-size: 27px;
+.feedback{
+		font-size: 25px;
+		margin: 0;
+ 		position: absolute;
+  	    top: 55%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		
 	}
-	.submit-giraffe{
+.submit-giraffe{
 		font-size: 25px;
 		margin: 0;
  		position: absolute;
@@ -20,7 +26,7 @@
   		border-radius: 10px;
   		border-color: sienna;
 	}
-	.submit-polarbear{
+.submit-polarbear{
 		font-size: 25px;
 		margin: 0;
  		position: absolute;
@@ -30,7 +36,7 @@
   		border-radius: 10px;
   		border-color: whtie;
 	}
-	.submit-caribou{
+.submit-caribou{
 		font-size: 25px;
 		margin: 0;
  		position: absolute;
@@ -40,7 +46,7 @@
   		border-radius: 10px;
   		border-color: whtie;
 	}
-	.submit-bobcat{
+.submit-bobcat{
 		font-size: 25px;
 		margin: 0;
  		position: absolute;
@@ -50,18 +56,7 @@
   		border-radius: 10px;
   		border-color: blanchedalmond;
 	}
-	.button3{
-		font-size:  30px;
-		position: absolute;
-		top: 115%;
-  		left: 50%;
-		transform:  translate(-50%, -50%);
-		border-radius: 10px;
-		border-color: white;
-		color: sienna;
-		background-color: white;
-	}
-	.next-giraffe{
+.next-giraffe{
 		font-size:  30px;
 		position: absolute;
 		top: 115%;
@@ -71,19 +66,19 @@
 		border-color: white;
 		color: sienna;
 		background-color: white;
-}
-	.next-polarbear{
-			font-size:  30px;
-			position: absolute;
-			top: 115%;
-			  left: 50%;
-			transform:  translate(-50%, -50%);
-			border-radius: 10px;
-			border-color: white;
-			color: gray;
-			background-color: white;
 	}
-	.next-caribou{
+.next-polarbear{
+		font-size:  30px;
+		position: absolute;
+		top: 115%;
+		left: 50%;
+		transform:  translate(-50%, -50%);
+		border-radius: 10px;
+		border-color: white;
+		color: gray;
+		background-color: white;
+	}
+.next-caribou{
 		font-size:  30px;
 		position: absolute;
 		top: 115%;
@@ -93,26 +88,26 @@
 		border-color: white;
 		color: gray;
 		background-color: white;
-}
+	}
 .next-bobcat{
-	font-size:  30px;
-	position: absolute;
-	top: 115%;
-	  left: 50%;
-	transform:  translate(-50%, -50%);
-	border-radius: 10px;
-	border-color: white;
-	color: gray;
-	background-color: white;
-}
-	.correct{
+		font-size:  30px;
+		position: absolute;
+		top: 115%;
+		left: 50%;
+		transform:  translate(-50%, -50%);
+		border-radius: 10px;
+		border-color: white;
+		color: gray;
+		background-color: white;
+	}
+.correct{
 		margin: 0;
  		position: absolute;
   	    top: 53%;
   		left: 50%;
   		transform: translate(-50%, -50%);
 	}
-	.answer{
+.answer{
 		margin: 0;
  		position: absolute;
   	    top: 64%;
@@ -121,34 +116,34 @@
   		height: 23px;
 		border-radius: 7px;
 	}
-	.body-giraffe{
+.body-giraffe{
 		background:  linear-gradient(sienna,white);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
-	.body-polarbear{
+.body-polarbear{
 		background:  linear-gradient(gray,white);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
-	.body-bobcat{
+.body-bobcat{
 		background:  linear-gradient(blanchedalmond,white);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
-	.body-caribou{
-		background:  linear-gradient(blanchedalmond,white);
+.body-caribou{
+		background:  linear-gradient(darkgray,white);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
-	.image{
+.croppedImage{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width:  65%;
 		border-radius: 10px;
 	}
-	.fullsize{
+.revealImage{
 		margin: auto;
  		position: absolute;
   		top: 130%;
@@ -157,12 +152,11 @@
   		font-family: Zen+Loop;
   		font-size: 13px;
 	}
-	.hint-polarbear.hint-giraffe.hint-bobcat.hint-caribou{
+.hint-polarbear.hint-giraffe.hint-bobcat.hint-caribou{
 		font-size:  15px;
 		transform:  translate(20%, 1900%);
 	}
-
-	.hint{
+.hint{
 		margin: 0;
  		position: absolute;
   		top: 80%;
@@ -171,7 +165,7 @@
   		font-family: Zen+Loop;
   		font-size: 16px;
 	}
-	.info{
+.info{
 		margin: auto;
  		position: absolute;
   		top: 160%;
@@ -179,11 +173,9 @@
   		transform: translate(-50%, -50%);
   		font-family: Zen+Loop;
   		font-size: 13px;
-	}
-	
-	.infoHeader{
-		
- 		position: absolute;
+	}	
+.infoHeader{
+		position: absolute;
   		top: 140%;
   		left: 20%;
   		transform: translate(-50%, -50%);
@@ -191,7 +183,7 @@
   		font-size: 24px;
   		font-weight: bold;
 	}
-	.fillerSpace{
+.fillerSpace{
  		position: absolute;
   		top: 180%;
   		left: 50%;
